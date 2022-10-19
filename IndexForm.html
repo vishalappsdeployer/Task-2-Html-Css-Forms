@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <title>Registration Form</title>
+        <link rel="stylesheet" type="text/css" href="./style.css">
+    </head>
+    <body>
+        <div class="Registration Form">
+           <center><h1>Registration Form</h1></center>
+            <form action="#" method= "post">
+                <p>Full Name:</p>
+                <input type="text" name="Full Name" placeholder="Full Name">
+                <p>Email:</p>
+                <input type="email" name="Email" placeholder="Email">
+                <p>Phone Number:</p>
+                <input type="number" name="Phone Number" placeholder="Phone Number">
+                <p>Description:</p>
+                <input type="text" name="Description" placeholder="Description">
+                <div class="aligment">
+                 <p>Age:</p> 
+                    <input type="radio" id="0-30" name="drone" value="0-30"
+                           checked>
+                    <label for="0-30">0-30</label>
+                    <div>
+                    <input type="radio" id="31-60" name="drone" value="31-60">
+                    <label for="31-60">31-60</label>
+                  </div>
+                   <div>
+                    <input type="radio" id="60-100" name="drone" value="60-100">
+                    <label for="60-100">60-100</label>
+                  </div>
+                </div>
+                    <p>Job:</p>
+                 <input type="text" name="Job" placeholder="Job">
+                 <p>Location</p>
+                <select id="myOptions">
+                    <option value="1"><span>Indore</span></option>
+                    <option value="2">Ujjain</option>
+                    <option value="3">Jabalpur</option>
+                    <option value="4">Bhopal</option>
+                </select>
+                <p>Hobbies:</p>
+                <input type="text" name="Hobbies" placeholder="Hobbies">
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        </div>
+    </body>
+</html>

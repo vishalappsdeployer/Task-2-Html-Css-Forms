@@ -1,0 +1,76 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body
+{
+  background: url('./hand-painted-watercolor-pastel-sky-background_23-2148902771.webp');
+  background-size: cover;
+  color: fff;
+
+}
+.Registration Form {
+    position: absolute;
+    top: 70%;
+    Left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+}
+
+.Registration Form h1 {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+    }
+
+.Registration Form p {
+    font-size: 20px;
+    margin: 15px 0;
+    }
+
+.Registration Form input {
+    font-size: 10px;
+    padding: 12px 20px;
+    width: 100%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: none;
+}
+.Registration Form button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.Registration Form button{
+    color: black;
+    background-color:azure;
+}
+
+.aligment input{
+    margin-top: 15px;
+    padding: 12px 20px;
+}
+select{
+    
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    outline: none;
+    width: 100%;
+    text-overflow: ellipsis;
+
+}
+
+
